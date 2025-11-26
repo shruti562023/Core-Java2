@@ -1,6 +1,4 @@
-package inheritance;
-
-import Polymorphism.Shape;
+package Polymorphism;
 
 public class Triangle extends Shape {
 	
@@ -32,7 +30,7 @@ public int getHeight() {
 public void area() {
 	double Area=(0.5 *(height*base));
 	
-	System.out.println(Area);
+	System.out.println("triangle " +Area);
 	
    }
 }

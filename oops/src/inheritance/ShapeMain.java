@@ -1,5 +1,8 @@
 package inheritance;
 
+import Polymorphism.Circle;
+import Polymorphism.Rectangle;
+
 public class ShapeMain {
 public static void main(String[] args) {
 	
