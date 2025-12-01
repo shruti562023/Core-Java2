@@ -44,10 +44,6 @@ public class PolymorphismArray {
 	
 	System.out.println("Area of all shape========================================================");
 	
-	for(int i=0;i<s.length;i++) {
-		s[i].area();
-		
-	}
 	
 
 	}

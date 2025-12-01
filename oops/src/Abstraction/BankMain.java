@@ -8,7 +8,7 @@ public class BankMain {
 		Bank b = new AxisBank();
 		Bank b1 = new HDFC();
 		
-		b.BankName();
+		b.BankName();             
 	
 	  System.out.println("Axis "  +b.getInterestRate());
 	  
