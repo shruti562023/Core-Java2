@@ -9,7 +9,7 @@ public class Arithmetic {
 		try {
 		int c=a/b;
 		
-		System.out.println("c "+c);
+		System.out.println("c  "+c);
 		}
 		
 		catch(ArithmeticException  e) {
