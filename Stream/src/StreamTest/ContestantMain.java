@@ -25,7 +25,7 @@ public class ContestantMain {
 		
 		
 		
-		a.forEach(System.out::println);
+		//a.forEach(System.out::println);
 		
 		System.out.println("------Get phone number--------");
 		//Get phone number;
