@@ -1,11 +1,12 @@
 package io_info;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Date;
 
 public class FileInfo {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		System.out.println("Acess File iformation");
 		File f = new File("D:\\IO\\Hello.txt");
@@ -20,6 +21,13 @@ public class FileInfo {
 		Date lastModify=new Date(f.lastModified());
 		System.out.println("update info date "+lastModify);
 		
+		
+		File f1 = new File("D:\\IO\\DemoS.txt");
+		f1.createNewFile();   // throws IOException
+
+		File dir = new File("D:\\IO\\MyFolder");
+		dir.mkdir();        // single folder
+
 	}
 
 }
